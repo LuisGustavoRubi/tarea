@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        
+        .card {
+            min-height: 300px; 
+        }
+    </style>
+     <style>
+        
+        .hero-panel {
+            background-color: gray;
+            text-shadow: black; 
+        
+        }
+    </style>
+     <style>
+      
+        .hero-panel {
+            background-image: url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            position: relative;
+        }
+
+       
+        .hero-panel:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); 
+            z-index: 1;
+        }
+
+       
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); 
+        }
+
+        h5 {
+            font-size: 1.5em;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+            margin-bottom: 30px;
+        }
+
+        .btn-large {
+            background-color: #0288d1;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        .btn-large:hover {
+            background-color: #0277bd;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <picture><img src="/materializeimg/logo.png" style="width: 70px;"></picture>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Inicio</a></li>
+                <li><a href="badges.html">Iniciar sesión</a></li>
+                <li><a href="collapsible.html">Registrarse</a></li>
+            </ul>
+        </div>
+    </nav>
+      
+      <div class="hero-panel">
+        <div class="container center-align">
+
+            <h1 class="white-text">Bienvenido a Nuestro Sitio</h1>
+            <h5 class="white-text">Explora y aprende sobre las últimas tendencias en tecnología.</h5>
+            
+        </div>
+    </div>
+    <h1 class="center-align">Incidencia de la IA generativa en bajos rendimientos escolares</h1>
+
+    <div class="container">
+        <p>
+            Los educandos y los docentes utilizan sin duda la IA con diferentes fines: para crear, para escribir, para programar y mucho más. La IA proporciona nuevas vías que permiten explorar y buscar ayuda sobre determinados temas, aunque también proporciona accesos rápidos. 
+        </p>
+        <p>
+            En la mayoría de los exámenes estandarizados los nuevos sistemas de IA generativa con grandes modelos lingüísticos obtienen mejores puntuaciones que la media de los estudiantes y, a menudo, se sitúan en el décimo o incluso en el primer rango porcentual. Esto es algo que obliga a los sistemas escolares a replantearse los modos de evaluación normales y que impulsará innovaciones en la manera de medir el aprendizaje.
+        </p>
+        <p>
+            El uso de ChatGPT también actúa como mediador entre la carga académica y la presión del tiempo y la pérdida de memoria. Esto implica que el recurso excesivo a ChatGPT para asistir en tareas académicas puede conducir a una menor necesidad de procesamiento mental activo y, por ende, a una reducción en la capacidad de retención de información.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          
+            <div class="col s12 m6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Fomenta creatividad</span>
+                        <div class="row">
+                            <div class="col s8">
+                                <p>
+                                    Puede fomentar la creatividad. Vivimos en un mundo visual, por lo que los niños necesitan formas de expresar sus ideas a través de fotografías, imágenes, gráficos y más. La IA no solo es valiosa para los artistas en ciernes, sino también para los niños.
+                                </p>
+                            </div>
+                            <div class="col s4">
+                                <img src="/materializeimg/img1.png" style="width: 100%; max-width: 200px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Compartir</a>
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class="col s12 m6">
+                <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">Mejora habilidades tecnológicas</span>
+                        <div class="row">
+                            <div class="col s8">
+                                <p>
+                                    La IA también fomenta habilidades tecnológicas. A medida que más tareas cotidianas se automatizan, los estudiantes aprenderán nuevas formas de trabajar con la tecnología, mejorando sus habilidades y conocimientos en este ámbito.
+                                </p>
+                            </div>
+                            <div class="col s4">
+                                <img src="/materializeimg/img2.png" style="width: 100%; max-width: 200px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Compartir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Siempre pensando en ti</h5>
+                    <p class="grey-text text-lighten-4"><i class="material-icons">account_circle</i><a href="https://www.facebook.com/">facebook</a></p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contactanos</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">perm_phone_msg</i> 9999-0000</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">perm_phone_msg</i> 3333-0101</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                © 2025 INFORSI Derechos Reservados
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
